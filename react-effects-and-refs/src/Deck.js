@@ -1,6 +1,7 @@
 import React, {useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from './Card';
+import './Deck.css';
 
 const API_BASE_URL = "https://deckofcardsapi.com/api/deck";
 
